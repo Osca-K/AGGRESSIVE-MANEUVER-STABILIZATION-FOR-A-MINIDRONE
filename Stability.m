@@ -79,7 +79,11 @@ nyquist(TFp, w);
 grid on;
 title('Nyquist Plot for Pitch', 'FontWeight', 'normal');
 
-
+% Nyquist for Yaw
+figure;
+nyquist(TFy, w);
+grid on;
+title('Nyquist Plot for Yaw', 'FontWeight', 'normal');
 
 
 
