@@ -73,6 +73,13 @@ nyquist(TFr, w);
 grid on;
 title('Nyquist Plot for Roll', 'FontWeight', 'normal');
 
+% Nyquist for Pitch
+figure;
+nyquist(TFp, w);
+grid on;
+title('Nyquist Plot for Pitch', 'FontWeight', 'normal');
+
+
 
 
 
