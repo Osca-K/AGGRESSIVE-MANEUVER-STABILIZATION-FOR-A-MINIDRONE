@@ -8,7 +8,6 @@ Ixx=8.12e-5;
 Iyy=8.12e-5;
 Izz=6.12e-5;
 
-w = logspace(-1, 2, 500); %Jyst for for simplisity and cleaness of the plot
 % Transfer Function for elevation, roll, pitch, and yaw 
 TFe = tf(1, [m 0 0]);
 TFr = tf(1, [Ixx 0 0]);
@@ -59,7 +58,7 @@ ylim([-0.5 0.5]);
 %% Nyquist Plots
 
 
-
+w = logspace(-1, 2, 500); %Jyst for for simplisity and cleaness of the plot
 
 
 % Nyquist for Elevation
@@ -67,7 +66,13 @@ figure;
 nyquist(TFe, w);
 grid on;
 title('Nyquist Plot for Elevation', 'FontWeight', 'normal');
+
 % Nyquist for Roll
+figure;
+nyquist(TFr, w);
+grid on;
+title('Nyquist Plot for Roll', 'FontWeight', 'normal');
+
 
 
 
