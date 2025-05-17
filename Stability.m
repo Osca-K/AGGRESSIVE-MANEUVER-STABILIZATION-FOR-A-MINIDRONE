@@ -21,6 +21,7 @@ set(groot, 'DefaultTextFontName', 'Times New Roman');
 set(groot, 'DefaultTextFontSize', 14);
 
 
+%%Zero-Pole-Figures
 figure;
 pzmap(TFe);
 grid on;
@@ -53,3 +54,4 @@ title('Pole-Zero for Yaw', 'FontWeight', 'normal');
 xlim([-0.5 0.5]);
 ylim([-0.5 0.5]);
 
+%% Nysquit Plot here
