@@ -96,3 +96,5 @@ function dx = quadrotorDynamics(~, x, inputMode)
     dx(11) = x(12); % psi (yaw)
     dx(12) = ((Ix - Iy) * x(8) * x(10) + U4) / Iz;
 end
+
+exportgraphics(gcf, 'Non_StepResponses.jpeg', 'Resolution', 600);
