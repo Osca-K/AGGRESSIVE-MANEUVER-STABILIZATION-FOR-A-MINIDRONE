@@ -91,6 +91,6 @@ for u = 1:4
         % ax.FontName = 'Times New Roman';  
     end
 end
-exportgraphics(gcf, 'StepResponses.jpeg', 'Resolution', 300);
+exportgraphics(gcf, 'StepResponses.jpeg', 'Resolution', 600);
 
 
