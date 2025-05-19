@@ -76,3 +76,21 @@ xlabel('Frequency (rad/s)', 'FontName', 'Times New Roman','FontSize', 12, 'FontW
 ylabel('Phase (degrees)', 'FontName', 'Times New Roman','FontSize', 12, 'FontWeight', 'normal');
 set(gca, 'FontName', 'Times New Roman','FontSize', 12, 'FontWeight', 'normal');
 
+% Yaw
+figure;
+% Magnitude plot
+subplot(2, 1, 1);
+semilogx(w, magy, 'b', 'LineWidth', 2);
+grid on;
+ylabel('Magnitude (dB)', 'FontName', 'Times New Roman','FontSize', 12, 'FontWeight', 'normal');
+title('Bode Plot of TF(s) = 1 / (6.12e-5 * s^2)', 'FontName', 'Times New Roman','FontSize', 12, 'FontWeight', 'normal');
+set(gca, 'FontName', 'Times New Roman','FontSize', 12, 'FontWeight', 'normal');
+% Phase plot )
+subplot(2, 1, 2);
+semilogx(w, phase, 'r', 'LineWidth', 2);
+grid on;
+xlabel('Frequency (rad/s)', 'FontName', 'Times New Roman','FontSize', 12, 'FontWeight', 'normal');
+ylabel('Phase (degrees)', 'FontName', 'Times New Roman','FontSize', 12, 'FontWeight', 'normal');
+set(gca, 'FontName', 'Times New Roman','FontSize', 12, 'FontWeight', 'normal');
+
+
