@@ -39,7 +39,7 @@ xlabel('Frequency (rad/s)', 'FontName', 'Times New Roman','FontSize', 12, 'FontW
 ylabel('Phase (degrees)', 'FontName', 'Times New Roman','FontSize', 12, 'FontWeight', 'normal');
 set(gca, 'FontName', 'Times New Roman','FontSize', 12, 'FontWeight', 'normal');  
 
-exportgraphics(gcf,'Bode_Plot_Elevation.png', 'Resolution', 300, 'Width', 800, 'Height', 600);
+exportgraphics(gcf,'Bode_Plot_Elevation.png', 'Resolution', 300);
 
 % Roll
 figure;
@@ -59,7 +59,7 @@ grid on;
 xlabel('Frequency (rad/s)', 'FontName', 'Times New Roman','FontSize', 12, 'FontWeight', 'normal');
 ylabel('Phase (degrees)', 'FontName', 'Times New Roman','FontSize', 12, 'FontWeight', 'normal');
 set(gca, 'FontName', 'Times New Roman','FontSize', 12, 'FontWeight', 'normal');  
-exportgraphics(gcf,'Bode_Plot_Roll.png', 'Resolution', 300, 'Width', 800, 'Height', 600);
+exportgraphics(gcf,'Bode_Plot_Roll.png', 'Resolution', 300);
 
 % Pitch
 figure;
@@ -77,7 +77,7 @@ grid on;
 xlabel('Frequency (rad/s)', 'FontName', 'Times New Roman','FontSize', 12, 'FontWeight', 'normal');
 ylabel('Phase (degrees)', 'FontName', 'Times New Roman','FontSize', 12, 'FontWeight', 'normal');
 set(gca, 'FontName', 'Times New Roman','FontSize', 12, 'FontWeight', 'normal');
-exportgraphics(gcf,'Bode_Plot_Pitch.png', 'Resolution', 300, 'Width', 800, 'Height', 600);
+exportgraphics(gcf,'Bode_Plot_Pitch.png', 'Resolution', 300);
 
 % Yaw
 figure;
@@ -95,6 +95,6 @@ grid on;
 xlabel('Frequency (rad/s)', 'FontName', 'Times New Roman','FontSize', 12, 'FontWeight', 'normal');
 ylabel('Phase (degrees)', 'FontName', 'Times New Roman','FontSize', 12, 'FontWeight', 'normal');
 set(gca, 'FontName', 'Times New Roman','FontSize', 12, 'FontWeight', 'normal');
-exportgraphics(gcf,'Bode_Plot_Yaw.png', 'Resolution', 300, 'Width', 800, 'Height', 600);
+exportgraphics(gcf,'Bode_Plot_Yaw.png', 'Resolution', 300);
 
 
