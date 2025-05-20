@@ -1,6 +1,6 @@
 clear
 clc
-close all
+% close all
 
 % Script for ploting the pole-zero map of four transfer functions
 m=0.506;
