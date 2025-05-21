@@ -29,6 +29,7 @@ title('Pole-Zero for Elevation,', 'FontWeight', 'normal');
 xlim([-0.5 0.5]);
 ylim([-0.5 0.5]);
 
+exportgraphics(gcf,'Zero_Pole_Elevation.png', 'Resolution', 300);
 
 
 figure;
@@ -37,6 +38,7 @@ grid on;
 title('Pole-Zero for Roll', 'FontWeight', 'normal');
 xlim([-0.5 0.5]);
 ylim([-0.5 0.5]);
+exportgraphics(gcf,'Zero_Pole_Roll.png', 'Resolution', 300);
 
 
 figure;
@@ -45,6 +47,7 @@ grid on;
 title('Pole-Zero for Pitch', 'FontWeight', 'normal');
 xlim([-0.5 0.5]);
 ylim([-0.5 0.5]);
+exportgraphics(gcf,'Zero_Pole_Pitch.png', 'Resolution', 300);
 
 
 figure;
@@ -53,6 +56,7 @@ grid on;
 title('Pole-Zero for Yaw', 'FontWeight', 'normal');
 xlim([-0.5 0.5]);
 ylim([-0.5 0.5]);
+exportgraphics(gcf,'Zero_Pole_Yaw.png', 'Resolution', 300);
 
 %% Nysquit Plot here
 %% Nyquist Plots
