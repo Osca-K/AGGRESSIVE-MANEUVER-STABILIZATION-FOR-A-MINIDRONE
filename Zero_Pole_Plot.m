@@ -1,6 +1,6 @@
 clear
 clc
-% close all
+close all
 
 % Script for ploting the pole-zero map of four transfer functions
 m=0.506;
@@ -58,36 +58,6 @@ xlim([-0.5 0.5]);
 ylim([-0.5 0.5]);
 exportgraphics(gcf,'Zero_Pole_Yaw.png', 'Resolution', 300);
 
-%% Nysquit Plot here
-%% Nyquist Plots
-
-
-w = logspace(-1, 2, 500); %Jyst for for simplisity and cleaness of the plot
-
-
-% Nyquist for Elevation
-figure;
-nyquist(TFe, w);
-grid on;
-title('Nyquist Plot for Elevation', 'FontWeight', 'normal');
-
-% Nyquist for Roll
-figure;
-nyquist(TFr, w);
-grid on;
-title('Nyquist Plot for Roll', 'FontWeight', 'normal');
-
-% Nyquist for Pitch
-figure;
-nyquist(TFp, w);
-grid on;
-title('Nyquist Plot for Pitch', 'FontWeight', 'normal');
-
-% Nyquist for Yaw
-figure;
-nyquist(TFy, w);
-grid on;
-title('Nyquist Plot for Yaw', 'FontWeight', 'normal');
 
 
 
