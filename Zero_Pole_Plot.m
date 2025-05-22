@@ -58,6 +58,3 @@ xlim([-0.5 0.5]);
 ylim([-0.5 0.5]);
 exportgraphics(gcf,'Zero_Pole_Yaw.png', 'Resolution', 300);
 
-
-
-

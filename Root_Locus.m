@@ -1,14 +1,14 @@
-m = 0.506
-Ix = 8.12e-5
-Iy = 8.12e-5
-Iz = 6.12e-5 
-kp = 5.28
-ki = 4.65
-kd = 3.4
+m = 0.506 ;
+Ix = 8.12e-5 ;
+Iy = 8.12e-5 ;
+Iz = 6.12e-5  ;
+kp = 5.28 ;
+ki = 4.65;
+kd = 3.4 ;
 
 %% integral control varies proportional control in Kp
-p = [0 1/m]
-q = [1 0 0 0]
+p = [0 1/m] ;
+q = [1 0 0 0] ;
 figure; rlocus(p,q)
 %% pd control varies proportional control in K
 v = [0 1/m]

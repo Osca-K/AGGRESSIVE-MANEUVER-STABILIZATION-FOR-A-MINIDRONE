@@ -3,25 +3,7 @@ clear
 clc
 close all
 
-% m = 0.506; 
 omega = logspace(-2, 2, 500); % frequenciess
-% Re = -1 ./ (m * omega.^2);
-% Im = zeros(size(omega));
-
-% set(groot, 'DefaultAxesFontName', 'Times New Roman');
-% set(groot, 'DefaultAxesFontSize', 14);
-% set(groot, 'DefaultTextFontName', 'Times New Roman');
-% set(groot, 'DefaultTextFontSize', 14);
-
-% figure;
-% plot(Re, Im, 'b-', 'LineWidth', 1);
-% xlabel('Re');
-% ylabel('Im');
-% title('Nyquist Plot of TF(s) = 1 / (0.506 s^2)', 'FontWeight' , 'normal');
-% grid on;
-% xline(0, '--k'); 
-% yline(0, '--k'); 
-
 
 % constants for the system
 m = 0.506; 
